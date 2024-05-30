@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDK Demo</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            font-size: 5em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+	<h1>Kore SDK</h1>
+    <div class="content">
+
+    </div>
+<script src='https://cdn.jsdelivr.net/npm/kore-web-sdk@11.1.1/dist/umd/kore-web-sdk-umd-chat.min.js'></script> <script> KoreChatSDK.chatConfig.botOptions.API_KEY_CONFIG.KEY = 'f81e3d56872b45c8944a2839db1a66807a560210e3854c3488e95fbf80f9416dst81'; new KoreChatSDK.chatWindow().show(KoreChatSDK.chatConfig); </script>
+</body>
+</html>
